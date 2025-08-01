@@ -1,0 +1,23 @@
+{
+  "name": "aurahh-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranjaniprakash/aurahh-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ranjaniprakash/aurahh-api/issues"
+  },
+  "homepage": "https://github.com/Ranjaniprakash/aurahh-api#readme"
+}
