@@ -1,20 +1,28 @@
 {
   "name": "aurahh-api",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js", 
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "axios": "^1.6.7",
+    "firebase-functions": "^4.4.1"
   },
-  "description": "",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "description": "Fantasy-style image generation backend using Replicate API",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ranjaniprakash/aurahh-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["AI", "image-generator", "fantasy", "Flutter-backend", "Aurahh"],
+  "author": "Ranjani Prakash",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ranjaniprakash/aurahh-api/issues"
